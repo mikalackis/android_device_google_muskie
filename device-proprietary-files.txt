@@ -175,6 +175,7 @@ product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
 product/lib64/libaptXHD_encoder.so
 product/lib64/libaptX_encoder.so
+product/lib64/libgdx.so
 -product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk;PRESIGNED
 -product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
 -product/priv-app/CarrierServices/CarrierServices.apk;PRESIGNED
@@ -188,6 +189,7 @@ product/lib64/libaptX_encoder.so
 -product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 product/priv-app/EuiccSupportPixel/esim0.img
 -product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
+-product/priv-app/GCS/GCS.apk;PRESIGNED
 -product/priv-app/HardwareInfo/HardwareInfo.apk
 -product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
 -product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
