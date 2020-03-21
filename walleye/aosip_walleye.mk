@@ -24,3 +24,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/walleye/walleye:10/QQ2A.200305.002/6138846:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/walleye/walleye-vendor.mk)
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
