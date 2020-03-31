@@ -2,16 +2,14 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AICP stuff.
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/muskie/aosp_walleye.mk)
 
-include device/google/muskie/device-lineage.mk
-
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_walleye
+PRODUCT_NAME := aicp_walleye
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 2
 PRODUCT_RESTRICT_VENDOR_FILES := false
