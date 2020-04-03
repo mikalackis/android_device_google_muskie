@@ -18,3 +18,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_walleye.mk \
     $(LOCAL_DIR)/aosp_walleye_test.mk \
     $(LOCAL_DIR)/walleye/lineage_walleye.mk
+
+COMMON_LUNCH_CHOICES := \
+	lineage_walleye-userdebug
